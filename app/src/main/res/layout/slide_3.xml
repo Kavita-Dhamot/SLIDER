@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightPurpleColor"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_fileName="worry.json"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEPRESSION"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It’s important to realize that feeling down at times is a normal part of life. Sad and upsetting events happen to everyone. But, if you’re feeling down or hopeless on a regular basis, you could be dealing with depression."
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
